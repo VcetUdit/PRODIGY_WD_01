@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Caveat', cursive;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #F0B9C2 ; 
+  }
+
+  .navbar-nav .nav-item:hover {
+    background-color: #594969;
+  }
+
+  .nav-item{
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+  .navbar-brand{
+    font-size: 30px;
+  }
+
+  body{
+    background-color: pink;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .Heading{
+    font-weight: bolder;
+  }

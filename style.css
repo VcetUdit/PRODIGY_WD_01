@@ -1,0 +1,84 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .card{
+    text-align: center;
+  }
+
+  img{
+    box-shadow: 10px 10px 8px black ;
+  }
+
+  .navbar-nav .nav-item:hover .nav-link {
+    color: white ; 
+  }
+
+  .navbar-nav .nav-item:hover {
+    background-color: #594969;
+  }
+
+  .nav-item{
+    font-weight: bolder;
+    font-size: larger;
+  }
+
+
+#features {
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature-card {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+}
+
+.Features{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font:x-large;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+#features{
+  margin-bottom: 40px;
+}

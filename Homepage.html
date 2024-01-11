@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FriendlyPaws</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: lightgreen !important;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./Paws.jpg" alt="Paws" height="60px" width="60px" style="box-shadow: none; font-family: cursive;">
+       FriendlyPaws Cafe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./Homepage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./AboutUs.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featurespage">Services</a>
+          </li>                                                                                                             
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action 1</a></li>
+              <li><a class="dropdown-item" href="#">Action 2</a></li>
+              <li><a class="dropdown-item" href="#">Action 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="title" class="gradient-background">
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./Dog.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-12 col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bring a 'PAWS'itive change to your life!</h1>
+        <p class="lead" style="color: white; font-weight: bolder;">Experience a pet cafe like never before! Come join us and get a heart content of immense joy these furry creatures provide us. You can get your own pet here and have them explore friends of all shapes and sizes. 
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="border-color: black;"scrollToContact()">Contact Us</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4 " style="border-color: white; color: black;">Download app</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <div class="Features" id="featurespage">
+  <h1>Our Services</h1>
+  </div>
+
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="feature-card">
+        <div class="card">
+          <h2>Dedicated Pet Play Area</h2>
+          <p>We have a large space for dogs to run and play around freely with a vast collection of toys to choose from!</p>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="card">
+          <h2>Pet Grooming Area</h2>
+          <p>For all your Dog fashion needs, we have the best pet stylists to make sure your little furball looks prettier than ever.</p>
+        </div>
+      </div>
+
+      <div class="feature-card">
+        <div class="card">
+          <h2>Exclusive Pet Menu</h2>
+          <p>Forget regular treats, this specially curated menu is designed keeping all the safety standards in check!</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <h1 style="text-align: center;">Satisfied Customers</h1>
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card mb-4 shadow-sm">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./GoldenRetriever.jpeg" alt="Golden Retriever">
+        <div class="card-body">
+          <h2 class="fw-normal">Bruno, Mumbai</h2>
+          <p class="card-text">"All thanks to FriendlyPaws, I finally found my soulmate and now we have 4 puppies together! Woofff"</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card mb-4 shadow-sm">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./Pomeranian.jpeg" alt="Pomeranian">
+        <div class="card-body">
+          <h2 class="fw-normal">Coco, Mumbai</h2>
+          <p class="card-text">"I let my Human pet and cuddle me in exchange for good spa and beauty treatment. Pretty fair deal if you ask me."</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card mb-4 shadow-sm">
+        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./Poodle2.jpeg" alt="Poodle">
+        <div class="card-body">
+          <h2 class="fw-normal">Snow and Derby, Mumbai</h2>
+          <p class="card-text">"Food's so good that we don't share it with each other even if we're siblings"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<!-- Add this code at the end of your HTML body -->
+<footer class="bg-body-tertiary text-center text-lg-start">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0 " id="contactus">
+        <h5 class="text-uppercase">Contact Information</h5>
+        <address>
+          <strong>FriendlyPaws Cafe</strong><br>
+          SV.Road, Borivali(W),Mumbai.<br>
+          Email: <a href="mailto:info@friendlypaws.com">info@friendlypaws.com</a><br>
+          Phone: +919087654321
+        </address>
+      </div>
+
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color: white;">
+    © 2024 FriendlyPaws Cafe
+  </div>
+</footer>
+
+
+<script>
+  function scrollToContact() {
+    var contactSection = document.getElementById('contactus');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+</script>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
